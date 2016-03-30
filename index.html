@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+<title>Champernowne's constant</title>
+<script src="jquery.js"></script>
+<script>
+$(document).ready(function(){
+	var i=1
+	setInterval(function(){
+		var b=document.getElementById("a").textContent+i
+		$("#a").text(b);
+		i++;
+	},0);
+});
+</script>
+</head>
+
+<body style="word-wrap: break-word">
+<p id="a">0.</p>
+</body>
+</html>
