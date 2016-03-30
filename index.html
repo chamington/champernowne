@@ -6,8 +6,8 @@
 $(document).ready(function(){
 	var i=1
 	setInterval(function(){
-		var b=document.getElementById("a").textContent+i
-		$("#a").text(b);
+		/*$("#a").text(document.getElementById("a").textContent+i);*/
+		$("#a").append(i);
 		i++;
 	},0);
 });
